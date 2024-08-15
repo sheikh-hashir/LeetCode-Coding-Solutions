@@ -1,0 +1,18 @@
+Cinema =
+| id | movie | description | rating |
+| -- | ----- | ----------- | ------ |
+| 1  | C     | good        | 6.2    |
+| 2  | A     | fiction     | 8      |
+| 3  | B     | great       | 9      |
+| 4  | D     | fantastic   | 4      |
+| 5  | E     | skytop      | 9.9    |
+| 6  | F     | topest      | 7      |
+| 7  | G     | finest      | 9.5    |
+| 8  | H     | highest     | 9      |
+| 9  | I     | 3D          | 9.8    |
+
+Expected =
+| id | movie      | description | rating |
+| -- | ---------- | ----------- | ------ |
+| 5  | House card | Interesting | 9.1    |
+| 1  | War        | great 3D    | 8.9    |
