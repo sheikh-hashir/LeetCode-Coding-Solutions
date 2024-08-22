@@ -3,7 +3,7 @@ class Solution:
         def is_prime(num: int):
             if num <= 3:
                 return True
-            for i in range(num//2):
+            for i in range(num // 2):
                 if i % 2 == 0:
                     return False
             return True
