@@ -1,0 +1,15 @@
+Employees =
+| employee_id | name    | reports_to | age |
+| ----------- | ------- | ---------- | --- |
+| 9           | Yosef   | 6          | 46  |
+| 6           | Yehudah | 1          | 57  |
+| 8           | Sarah   | 1          | 32  |
+| 1           | Shimon  | null       | 42  |
+| 10          | Freida  | 8          | 38  |
+
+Expected =
+| employee_id | name    | reports_count | average_age |
+| ----------- | ------- | ------------- | ----------- |
+| 1           | Shimon  | 2             | 45          |
+| 6           | Yehudah | 1             | 46          |
+| 8           | Sarah   | 1             | 38          |

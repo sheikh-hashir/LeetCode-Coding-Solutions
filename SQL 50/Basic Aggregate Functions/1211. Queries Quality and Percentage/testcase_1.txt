@@ -1,0 +1,14 @@
+Queries =
+| query_name | result           | position | rating |
+| ---------- | ---------------- | -------- | ------ |
+| null       | Golden Retriever | 1        | 5      |
+| null       | German Shepherd  | 2        | 5      |
+| null       | Mule             | 200      | 1      |
+| Cat        | Shirazi          | 5        | 2      |
+| Cat        | Siamese          | 3        | 3      |
+| Cat        | Sphynx           | 7        | 4      |
+
+Expected =
+| query_name | quality | poor_query_percentage |
+| ---------- | ------- | --------------------- |
+| Cat        | 0.66    | 33.33                 |

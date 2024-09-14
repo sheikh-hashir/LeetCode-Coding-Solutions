@@ -1,0 +1,20 @@
+Movies =
+| movie_id | title   |
+| -------- | ------- |
+| 1        | Rebecca |
+
+Users =
+| user_id | name    |
+| ------- | ------- |
+| 1       | Rebecca |
+
+MovieRating =
+| movie_id | user_id | rating | created_at |
+| -------- | ------- | ------ | ---------- |
+| 1        | 1       | 5      | 2020-02-12 |
+
+Expected
+| results |
+| ------- |
+| Rebecca |
+| Rebecca |

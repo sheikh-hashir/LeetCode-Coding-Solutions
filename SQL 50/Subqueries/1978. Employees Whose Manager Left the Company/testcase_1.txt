@@ -1,0 +1,23 @@
+Employees =
+| employee_id | name   | manager_id | salary |
+| ----------- | ------ | ---------- | ------ |
+| 18          | Drew   | null       | 41568  |
+| 20          | Ronan  | 3          | 65209  |
+| 10          | Jaxton | 15         | 96667  |
+| 13          | Louie  | 16         | 6801   |
+| 17          | Mylah  | 20         | 26540  |
+| 21          | Kenia  | 15         | 98690  |
+| 7           | Hadley | 6          | 23590  |
+| 9           | Hayden | 4          | 90798  |
+| 2           | Nixon  | null       | 25560  |
+| 8           | Arthur | 11         | 67027  |
+| 11          | Brycen | null       | 42570  |
+| 3           | Noemi  | null       | 87321  |
+| 14          | Hayden | null       | 4123   |
+| 19          | Astrid | 20         | 37680  |
+
+Expected =
+| employee_id |
+| ----------- |
+| 7           |
+| 13          |

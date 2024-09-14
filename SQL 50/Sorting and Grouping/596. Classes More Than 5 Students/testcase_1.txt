@@ -1,0 +1,17 @@
+Courses =
+| student | class    |
+| ------- | -------- |
+| A       | Math     |
+| B       | English  |
+| B       | Math     |
+| C       | Biology  |
+| C       | Math     |
+| C       | Computer |
+| D       | OS       |
+| D       | Android  |
+| D       | English  |
+| D       | Games    |
+
+Expected =
+| class |
+| ----- |
