@@ -1,0 +1,13 @@
+Users =
+| user_id | name   |
+| ------- | ------ |
+| 593     | DAlia  |
+| 944     | FREIda |
+| 222     | refAEL |
+
+Expected =
+| user_id | name   |
+| ------- | ------ |
+| 222     | Refael |
+| 593     | Dalia  |
+| 944     | Freida |
