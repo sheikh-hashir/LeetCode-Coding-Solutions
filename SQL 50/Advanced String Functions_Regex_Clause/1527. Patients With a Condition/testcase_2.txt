@@ -1,0 +1,13 @@
+Patients =
+| patient_id | patient_name | conditions   |
+| ---------- | ------------ | ------------ |
+| 1          | Winston      |              |
+| 2          | Moustafa     | ARTH         |
+| 3          | Jonathan     |              |
+| 4          | Maria        | DIAB101 MYOP |
+| 5          | Jade         | ACNE MYOP CF |
+
+Expected =
+| patient_id | patient_name | conditions   |
+| ---------- | ------------ | ------------ |
+| 4          | Maria        | DIAB101 MYOP |

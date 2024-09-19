@@ -1,0 +1,8 @@
+Patients =
+| patient_id | patient_name | conditions |
+| ---------- | ------------ | ---------- |
+| 1          | Daniel       | SADIAB100  |
+
+Expected =
+| patient_id | patient_name | conditions |
+| ---------- | ------------ | ---------- |
