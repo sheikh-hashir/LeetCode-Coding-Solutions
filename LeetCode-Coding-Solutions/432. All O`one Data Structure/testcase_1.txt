@@ -1,0 +1,7 @@
+Input
+["AllOne","inc","inc","getMaxKey","getMinKey","inc","getMaxKey","getMinKey"]
+[[],["hello"],["hello"],[],[],["leet"],[],[]]
+
+
+Expected =
+[null,null,null,"hello","hello",null,"hello","leet"]
