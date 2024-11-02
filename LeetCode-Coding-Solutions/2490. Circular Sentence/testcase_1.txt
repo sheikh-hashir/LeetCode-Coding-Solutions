@@ -1,0 +1,5 @@
+sentence =
+"Leetcode eisc cool"
+
+Expected =
+False
