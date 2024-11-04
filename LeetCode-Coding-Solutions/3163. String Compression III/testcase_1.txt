@@ -1,0 +1,5 @@
+word =
+"mrm"
+
+Expected =
+"1m1r1m"

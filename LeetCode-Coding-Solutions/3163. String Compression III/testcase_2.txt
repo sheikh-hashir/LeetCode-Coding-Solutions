@@ -1,0 +1,5 @@
+word =
+"aaaaaaaaay"
+
+Expected =
+"9a1y"
