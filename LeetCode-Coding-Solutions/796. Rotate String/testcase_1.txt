@@ -1,0 +1,8 @@
+s =
+"aa"
+
+goal =
+"a"
+
+Expected =
+false
